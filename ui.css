@@ -1,0 +1,193 @@
+#CommnetivityUI {
+    position: relative;
+    top: 0px;
+    max-width: 62.5em;
+    margin: auto auto;
+    -webkit-box-shadow: 0px 7px 11px -3px rgba(50, 50, 50, 0.43);
+    -moz-box-shadow: 0px 7px 11px -3px rgba(50, 50, 50, 0.43);
+    box-shadow: 0px 7px 11px -3px rgba(50, 50, 50, 0.43);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+#CommnetivityUI ul {} #CommnetivityUI_Container {} .CommnetivityUI_Secondary {} .CommnetivityUI_SecondaryTabs {
+    margin: 0px;
+    padding: 0px;
+    min-height: 5px;
+    border: 1px solid rgb(222, 224, 216);
+    float: right;
+}
+.CommnetivityUI_SecondaryTabs li {
+    text-align: right;
+    background-color: rgba(53, 52, 54, 0.7);
+    list-style-type: none;
+    margin: 4px;
+}
+.CommnetivityUI_SecondaryTabs li a {
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 12px;
+}
+.CommnetivityUI_SecondaryTabs li a:hover {
+    color: #fff;
+}
+.row {
+    // Need to change this to CommnetivityUI_NewRow
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+}
+.CommnetivityUI_Header {
+    height: 38px;
+    top: 10px;
+    background-color: #353436;
+    color: #BCBDB7;
+}
+.CommnetivityUI_Logo {
+    margin-left: 8px;
+    height: 68px;
+    position: absolute;
+    left: 0px;
+    top: 0px
+}
+.CommnetivityUI_Primary {
+    margin-left: 8px;
+    margin-top: 18px;
+    right: 0px;
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-right: 10px;
+}
+.CommnetivityUI_Primary li {
+    display: inline-block;
+    font-size: 0.825em;
+}
+.CommnetivityUI_Primary li + li:before {
+    content: '\25C7';
+}
+.CommnetivityUI_Primary li a {
+    color: #e9e9e9;
+    text-decoration: none;
+}
+.CommnetivityUI_Primary li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.CommnetivityUI_Primary li:last-child {
+    border-right: none;
+    margin-right: none;
+}
+.CommnetivityUI_Secondary {
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    background-color: #DEE0D8;
+    min-height: 5px;
+    max-height: 26px;
+    width: 100%;
+    /* float: right; */
+    
+    padding-right: 10px;
+    border-bottom: 1px solid #353436;
+}
+.CommnetivityUI_Secondary li {
+    display: inline-block;
+    right: 0px;
+    text-align: right;
+    line-height: 1.6;
+    font-size: 0.825em;
+}
+.CommnetivityUI_Secondary li + li:before {
+    content: '\25C7';
+}
+.CommnetivityUI_Secondary li a {
+    color: #000;
+    text-decoration: none;
+}
+.CommnetivityUI_StatusBar {
+    height: 4px;
+    background-color: rgb(181, 184, 168);
+}
+.CommnetivityUI_ViewPort {
+    background-color: rgba(244, 244, 244, 0.85);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(188, 189, 183, 0.5);
+    box-shadow: inset 1px 2px 6px 2px #CFCBCB;
+    -webkit-box-shadow: inset 1px 2px 6px 2px #CFCBCB;
+    -moz-box-shadow: inset 1px 2px 6px 2px #CFCBCB;
+    -o-box-shadow: inset 1px 2px 6px 2px #CFCBCB;
+}
+.CommnetivityUI_ViewPort p {
+    margin-bottom: 0px;
+}
+.CommnetivityUI_AlwaysVisibleToolbar {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    height: 24px;
+    line-height: 18px;
+    font-size: 0.875rem;
+    border-bottom: 3px solid rgba(68, 68, 69, 0.4);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: rgba(140, 146, 119, 0.28);
+    -webkit-box-shadow: inset 0 -8px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .15);
+}
+.CommnetivityUI_AlwaysVisibleToolbar > li {
+    list-style-type: none;
+}
+.CommnetivityUI_AlwaysVisibleToolbar > li { display: inline-block; } .CommnetivityUI_AlwaysVisibleToolbar > li:last-child {
+    position: absolute;
+    right: 0px;
+    float: right;
+    top: 0px;
+    margin-right: 10px;
+    color: white;
+}
+.CommnetivityUI_AlwaysVisibleToolbar > li:last-child a {
+    color: #BCBDB7;
+    font-size: 8px;
+}
+.CommnetivityUI_AlwaysVisibleToolbar a {
+    color: #747C5B;
+}
+.CommnetivityUI_AlwaysVisibleToolbar a:hover {
+    color: #000;
+}
+.CommnetivityUI_Toggler {
+    padding-left: 28px;
+    background-image: url('//commnetivity.com/commnetivity/css/settings.png');
+    background-repeat: no-repeat;
+    filter: url(/commnetivity/css/filters.svg#grayscale);
+    /* Firefox 3.5+ */
+    
+    filter: gray;
+    /* IE6-9 */
+    
+    -webkit-filter: grayscale(1);
+    /* Google Chrome & Safari 6+ */
+}
+.CommnetivityUI_Toggler:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.CommnetivityUI_Editor {
+	padding-left: 28px;
+	margin-left: 10px;
+	background-image: url('//commnetivity.com/commnetivity/css/edit.png');
+    background-repeat: no-repeat;
+	filter: url(//commnetivity.com/commnetivity/css/filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+}
+.CommnetivityUI_Toggler:hover {
+    filter: none;
+    -webkit-filter: none;
+}
